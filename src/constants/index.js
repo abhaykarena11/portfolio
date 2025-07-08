@@ -34,7 +34,7 @@ export const PROJECTS = [
     title: "CPU-scheduling",
     image: project1,
     description:
-      "A web based tool to generate gantt chart and calculate TAT (turnaround time) and WAT (waiting time) based on various scheduling algorithms.",
+      "A web based tool  to generate gantt chart and calculate TAT (turnaround time) and WAT (waiting time) based on various scheduling algorithms.",
     technologies: ["HTML", "CSS", "JS"],
     link: "https://abhaykarena11.github.io/CPU-scheduling",
   },

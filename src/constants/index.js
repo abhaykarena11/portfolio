@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpeg";
-import project2 from "../assets/projects/project-2.png";
+import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpeg";
+import project4 from "../assets/projects/project-4.jpeg";
 
 export const HERO_CONTENT = `Final-year Information & Technology student at L.D. College of Engineering with hands-on experience in full-stack development using React.js, Node.js, Express.js, MongoDB, and MySQL. Built 4 projects and solved 400+ DSA problems on LeetCode and GFG.`;
 
@@ -42,16 +43,24 @@ export const PROJECTS = [
     image: project2,
     description:
       "A real-time chat web app that allows multiple users to communicate seamlessly. It supports instant messaging with smooth and interactive user experience.",
-    technologies: ["HTML", "CSS", "JS", "MERN", "WebSocket"],
-    link: "https://chatting-1-w2or.onrender.com/",
+    technologies: ["HTML", "Tailwind", "JS", "MERN", "WebSocket"],
+    link: "https://chat-6iyh.onrender.com/",
   },
   {
     title: "Elastic Collision Simulator",
     image: project3,
     description:
       "Simulates and animates real-time elastic collisions based on user-defined mass, velocity, and distance.",
-    technologies: ["HTML", "Tailwind", "React"],
+    technologies: ["HTML", "CSS", "JS"],
     link: "https://abhaykarena11.github.io/Collision-Simulator/",
+  },
+  {
+    title: "Sorting-algo Visualizer",
+    image: project4,
+    description:
+      "Developed a React.js-based web app to animate step-by-step execution of sorting algorithms. Visualized comparisons and swaps in real time for Bubble, Insertion, Selection (comparison-based), and Merge, Quick ( divide & conquer ), Radix, Bucket, Counting ( non-comparison based). Enabled side-by-side algorithm comparison for performance analysis .",
+    technologies: ["HTML", "CSS", "JS", "React"],
+    link: "https://abhaykarena11.github.io/sort-algo-visualizer/",
   },
 ];
 

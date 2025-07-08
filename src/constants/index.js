@@ -1,8 +1,8 @@
 import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpeg";
-import project4 from "../assets/projects/project-4.jpeg";
-
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 export const HERO_CONTENT = `Final-year Information & Technology student at L.D. College of Engineering with hands-on experience in full-stack development using React.js, Node.js, Express.js, MongoDB, and MySQL. Built 4 projects and solved 400+ DSA problems on LeetCode and GFG.`;
 
 export const ABOUT_TEXT = `I am a final-year Information & Technology student at L.D. College of Engineering with strong skills in full-stack web development and computer science fundamentals.
@@ -61,6 +61,14 @@ export const PROJECTS = [
       "Developed a React.js-based web app to animate step-by-step execution of sorting algorithms. Visualized comparisons and swaps in real time for Bubble, Insertion, Selection (comparison-based), and Merge, Quick ( divide & conquer ), Radix, Bucket, Counting ( non-comparison based). Enabled side-by-side algorithm comparison for performance analysis .",
     technologies: ["HTML", "CSS", "JS", "React"],
     link: "https://abhaykarena11.github.io/sort-algo-visualizer/",
+  },
+  {
+    title: "File-Compressor",
+    image: project5,
+    description:
+      "Developed a React.js-based web app to animate step-by-step execution of sorting algorithms. Visualized comparisons and swaps in real time for Bubble, Insertion, Selection (comparison-based), and Merge, Quick ( divide & conquer ), Radix, Bucket, Counting ( non-comparison based). Enabled side-by-side algorithm comparison for performance analysis .",
+    technologies: ["HTML", "CSS", "JS", "React", "Express"],
+    link: "https://compressor-frontend.onrender.com/",
   },
 ];
 
